@@ -46,7 +46,6 @@ a {
     background-color: #F0F6FF;;
     padding: 70px 0 0;
     position: relative;
-    z-index: -1;
     overflow: hidden;
 }
 
