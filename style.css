@@ -47,6 +47,7 @@ a {
     padding: 70px 0 0;
     position: relative;
     z-index: -1;
+    overflow: hidden;
 }
 
 .top-content-box {
@@ -65,7 +66,7 @@ a {
     font-weight: 700;
     line-height: 80px;
     min-width: 480px;
-}
+} 
 
 .top-content-top span {
     background: linear-gradient(91deg, #6D6AFE 17.28%, #FF9F9F 74.98%);
@@ -101,7 +102,6 @@ a {
     justify-content: space-between;
     align-items: center;
     position: relative;
-    gap: 157px;
     max-width: 1000px;
     margin: 0px auto;
 }
@@ -145,7 +145,7 @@ a {
 }
 
 .content1 .card-1 {
-    left: -120px;
+    left: -132px;
     width: 279px;
     position: absolute;
     top: 88px;
@@ -217,6 +217,14 @@ a {
     left: 68px;
 }
 
+.content3 .img-box {
+    background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5) ), url(./images/middle3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 160%;
+    overflow: hidden;
+}
+
 .content4{
     background-color: #ffffff;
     width: 100%;
@@ -244,6 +252,7 @@ a {
 .footer {
     background-color: #111322;
     padding: 32px 0 64px;
+    width: 100%;
 }
 
 .footer-box {
@@ -251,7 +260,6 @@ a {
     justify-content: space-between;
     align-items: center;
     margin: 0 104px;
-    max-width: 1700px;
 }
 
 .footer-left {
